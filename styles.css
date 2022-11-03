@@ -1,14 +1,22 @@
-
-/* Your CSS Code here. */
-body{
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#gameContainer{
+    text-align: center;
 }
 
-canvas{
-    box-shadow: grey 20px 10px 50px;
+#gameBoard{
+    border: 3px solid;
+}
+
+#scoreText{
+    font-family: "permanent Marker", cursive;
+    font-size: 100px;
+}
+
+#resetBtn{
+    font-family: "permanent Marker", cursive;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
 }
