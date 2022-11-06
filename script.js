@@ -8,7 +8,7 @@ const boardBackground = "white";
 const snakeColor = "lightgreen";
 const snakeBorder = "black";
 const foodColor = "red";
-const unitSize = 20;
+const unitSize = 40;
 let running = false;
 let xVelocity = unitSize;
 let yVelocity = 0;
@@ -44,7 +44,7 @@ function nextTick(){
             drawSnake();
             checkGameOver();
             nextTick();
-        }, 75);
+        }, 100);
     }else{
         displayGameOver();
     }
