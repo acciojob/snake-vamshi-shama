@@ -1,5 +1,5 @@
 
-import { getInputDirection } from "./input";
+import { getInputDirection } from "./input.js";
 const snakeBody = [{x:20,y:1},{x:21,y:1}];
 
 export function renderSnake(gameBoard) {
@@ -15,7 +15,7 @@ export function renderSnake(gameBoard) {
     })
 }
 
-export function movesnake() {
+export function moveSnake(){
 
     for(let i = snakeBody.length-2; i>= 0; i--) {
         snakeBody[i+1] = {...snakeBody[i]};
@@ -44,7 +44,7 @@ function checkIntersection(position) {
 }
 
 export function expandSnake() {
-    snakeBody.push({... snakeBody[snakeBody.length-1]});
+    snakeBody.push({...snakeBody[snakeBody.length-1]});
 }
 
 export function getSnakeHead() {

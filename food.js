@@ -1,4 +1,4 @@
-import { onSnake, expandSnake } from "./snake";
+import { onSnake, expandSnake } from "./snake.js";
 let food = {x:4,y:4};
 let score = 0;
 

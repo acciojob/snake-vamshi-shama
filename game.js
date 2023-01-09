@@ -1,6 +1,6 @@
 
-import { renderSnake ,moveSnake, getSnakeHead, isSnakeIntersected } from "./snake";
-import { renderFood, moveFood, getScore } from "./food";
+import { renderSnake ,moveSnake, getSnakeHead, isSnakeIntersected } from "./snake.js";
+import { renderFood, moveFood, getScore } from "./food.js";
 
 let lastRenderTime = 0,
     gameOver = false;
